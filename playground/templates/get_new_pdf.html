@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GET_PDF</title>
+</head>
+<body>
+    {% for i in cves %}
+        {{ i }}
+        {{ value|linebreaks }}
+    {% endfor %}
+</body>
+</html>
